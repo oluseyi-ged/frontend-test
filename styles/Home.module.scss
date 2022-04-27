@@ -1,0 +1,43 @@
+.container {
+  padding: 0 2rem;
+}
+.home__contentHeader {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 40.8px 39px;
+  color: #4a4a4a;
+}
+
+.tabContainer {
+  padding: 0 40.8px;
+}
+
+.tab__list {
+  // background-color: red;
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tab__Selected {
+  background-color: #2196f3;
+  padding: 8.6px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0px;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.tablistItem {
+  list-style-type: none;
+  padding: 8.6px 15px;
+  border-right: 0.5px solid #d9d9d9;
+  width: fit-content;
+  height: 32px;
+  cursor: pointer;
+}
